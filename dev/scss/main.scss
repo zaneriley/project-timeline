@@ -1,0 +1,17 @@
+/*********************************************
+ * main.scss
+ * 
+ * Imports all partials (other snippets of SCSS code)
+ * into one main file. You should NOT write any
+ * SCSS here. If you want to write something new
+ * please create a module in dev/scss/modules.
+ * Then import it below. Please note the import order
+ * is specific. http://sass-lang.com/guide
+ *
+ *********************************************/
+
+// Start importing modules
+@import "modules/modular-scale/modular-scale"; // typography - http://thesassway.com/projects/modular-scale
+@import "../theme"; 				  		   // Aesthetic variables
+@import "modules/base";
+@import "modules/timeline/updates/updates";

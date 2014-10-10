@@ -1,0 +1,33 @@
+{
+"title": "The Client | Project Timeline",
+
+"logo": "http://placehold.it/350/FC354C/0ABFBC",
+
+"about": "This project timeline lorem ipsum Aliquip ullamco adipisicing cupidatat ullamco qui velit fugiat labore sit cillum deserunt eiusmod voluptate ex aliqua non id fugiat.",
+
+
+    "updates" : [
+        {
+          "date": "October 25, 2014",
+          "title" : "Prototype Iterations",
+          "notes": [
+            { "item-name": "View Prototype 01", "item-url" : "#" },
+            { "item-name": "View Prototype 02", "item-url" : "#" },
+            { "item-name": "View Prototype 03", "item-url" : "#" }
+          ] 
+        },
+        {
+          "date": "October 13, 2014",
+          "title" : "Objectives and Milestone Meetings"
+        },
+        {
+          "date": "October 02, 2014",
+          "title" : "Initial Interview",
+          "notes": [
+            { "item-name": "View Project Item 1", "item-url" : "#" },
+            { "item-name": "View Project Item 2", "item-url" : "#" }
+          ] 
+        }
+    ]
+    
+}

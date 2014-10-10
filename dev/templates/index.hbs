@@ -1,0 +1,53 @@
+{{> partials/header}}
+
+<main class="content">
+
+	<header>
+		<img src="{{logo}}" alt="{{title}}" class="header-logo">
+		<h1 class="header-title">{{title}}</h1>
+	</header>
+
+	<section class="about">
+		<p>{{about}}</p>
+	</section>
+
+	<section class="timeline">
+
+		<h2 class="timeline-title">Timeline</h2>
+
+		<ul class="timeline-list">
+
+		{{#each updates}}
+
+			<li class="timeline-update">
+
+				<date class="timeline-update-date">{{date}}</date>
+
+				<h3 class="timeline-update-title">{{title}}</h3>
+
+			{{#if notes}}
+			<div class="timeline-update-notes">
+				
+				<h4 class="timeline-update-notes-title">Notes:</h4>
+
+				<ul class="timeline-update-notes-list">
+					{{#each notes}}
+						<li>
+							<a class="timeline-update-notes-item" href="{{item-url}}" alt={{item-name}}>{{item-name}}</a>
+						</li>
+					{{/each}}
+				</ul>
+
+			{{else}}
+			</div>
+			{{/if}}
+
+			</li>
+		{{/each}}
+		</ul>
+
+	</section>
+
+</main>
+
+{{> partials/footer}}

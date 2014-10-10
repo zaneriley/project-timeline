@@ -1,0 +1,73 @@
+/*********************************************
+ * _theme.scss
+ * 
+ * Contains the aesthetic part of the project hub.
+ * Colors, typefaces, etc. 
+ *
+ *********************************************/
+
+// Colors
+$primary-color:#FC354C; // orange
+
+$body-background-color: #fff;
+$timeline-border-color:#0ABFBC;
+
+$main-text: rgba(00,00,00,.87);
+$secondary-text: rgba(00,00,00,.57);
+$hint-text: rgba(00,00,00,.37);
+
+
+// Typography
+$body-typeface: "Roboto", sans-serif;
+$heading-typeface:"Roboto Slab", serif;
+
+$body-line-height:1.45em;
+$heading-line-height:1.2em;
+
+$body-font-weight:300;
+$heading-font-weight:600;
+
+
+// Layout 
+$max-width: 1200px;
+$medium: "only screen and (min-width : 650px)";
+$large: "only screen and (min-width : 1040px)";
+
+/**
+ * GOOGLE FONT IMPORT
+ *
+ * If you're going to include other custom typefaces
+ * than the default above you must link them here.
+ *
+ */
+	@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,400italic,700,700italic);
+
+/**
+ * OTHER TYPOGRAPHIC SETTINGS
+ *
+ * Typography settings like line-height and font-sizes are
+ * decided by a SCSS plugin called Modular Scale
+ * (http://thesassway.com/projects/modular-scale).
+ *
+ * Below are the available ratios.
+ *
+ *   $golden           : $phi;
+ *   $double-octave    : 4;
+ *   $major-twelfth    : 3;
+ *   $major-eleventh   : 2.666666667;
+ *   $major-tenth      : 2.5;
+ *   $octave           : 2;
+ *   $major-seventh    : 1.875;
+ *   $minor-seventh    : 1.777777778;
+ *   $major-sixth      : 1.666666667;
+ *   $minor-sixth      : 1.6;
+ *   $fifth            : 1.5;
+ *   $augmented-fourth : 1.41421;
+ *   $fourth           : 1.333333333;
+ *   $major-third      : 1.25;
+ *   $minor-third      : 1.2;
+ *   $major-second     : 1.125;
+ *   $minor-second     : 1.066666667;
+ *
+ */
+	$ms-ratio: $major-third !default; // modular-scale ratio.

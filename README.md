@@ -1,4 +1,4 @@
-# Project Timeline for Clients [(Demo)](http://zaneriley.github.io/project-timeline/app/)
+# Project Timeline for Clients
 
 **Project Timeline** is a static site to help keep track of digital projects. It's fast and easy to brand and deploy. 
 

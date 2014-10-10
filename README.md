@@ -59,7 +59,7 @@ This project uses the command line and requires `Git` and `Node` to be installed
     
 ### Limitations and known issues
 
-**Watching JSON data when doing `$ gulp` or `$ gulp watch`**
+**Live updating when making edits to JSON data when doing `$ gulp` or `$ gulp watch`**
 
-Running `$ gulp`, which opens up Brower-Sync and Gulp Watch, does not work with our JSON data. This is because Node.js caches require()'s and therefore doesn't see the data update. I haven't found a good way to clear the cache or bring in the JSON data any other way. Pull requests welcome.
+Running `$ gulp`, which opens up Brower-Sync and Gulp Watch, does not work with our JSON data. This is because Node.js caches require()'s and therefore doesn't see the data update. I haven't found a good way to clear the cache or bring in the JSON data any other way. It should be an easy fix. Pull requests welcome.
 

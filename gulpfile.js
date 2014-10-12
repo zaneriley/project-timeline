@@ -6,7 +6,6 @@ var cssmin        = require("gulp-minify-css");
 var handlebars    = require('gulp-compile-handlebars');  // Compiles handlebar templating
 var jsValidate    = require('gulp-jsvalidate');          
 var notify        = require('gulp-notify');              // Better alerts for Gulp
-var plumber       = require('gulp-plumber');             // Fixes Gulp streaming issue when it hits an error
 var reload        = browserSync.reload;
 var rename        = require('gulp-rename');              // can rename files
 var sass          = require('gulp-sass');                // CSS preprocessor
